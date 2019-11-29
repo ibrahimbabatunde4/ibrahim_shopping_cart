@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tutor-Me</title>
+    <link rel="stylesheet"
+        href="C:\Users\IBRAHIM BABATUNDE\Desktop\she-hacks\tutor_me-master\assets\css\bootstrap.min.css">
+    <link rel="stylesheet"
+        href="C:\Users\IBRAHIM BABATUNDE\Desktop\she-hacks\tutor_me-master\assets\css\style.css">
+    <style>
+        .m {
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            border: 2px solid orange;
+        }
+
+        .para {
+            margin-left: 16px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Top navigation bar -->
+    <!-- <a class="nav-link active" href="#" class="fa fa-facebook"></a>
+    <nav class="topnav">
+        <div class="contents">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a href="#" class="fa fa-facebook"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="fa fa-twitter"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">testing</a>
+                </li>
+            </ul>
+        </div>
+    </nav> -->
+    <!-- Main navigation bar -->
+    <nav class="navbar nav-tabs navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand" href="#">TutorMe</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Learner
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Find a tutor</a>
+                        <a class="dropdown-item" href="#">Browse all
+                            subjects</a>
+                        <a class="dropdown-item" href="#">Special Learners</a>
+                        <!-- <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a> -->
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tutors
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Search for students</a>
+                        <a class="dropdown-item" href="#">Resources guidelines</a>
+                        <a class="dropdown-item" href="#">Register</a>
+                        <!-- <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a> -->
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <div class="social">
+                    <!-- <a href="#">Sign in</a>
+                    <a href="#">Sign up</a> -->
+                    <!-- <p>(Social Media Icons)</p> -->
+                </div>
+                <br>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <!-- <a href="#">Sign in</a>
+                                <a href="#">Sign up</a> -->
+            <!-- <p>(Social Media Icons)</p> -->
+        </div>
+    </nav>
+    <!-- <h1>Hello World</h1> -->
+    <!-- Adding a slider image (carousel) -->
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item" data-interval="3000">
+                    <img src="C:\Users\IBRAHIM BABATUNDE\Desktop\she-hacks\tutor_me-master\assets\images\children_PNG18059.png"
+                        class="img1" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h1 class="info">Register for a FREE account today!!!</h1>
+                        <!-- <p>Nulla vitae elit libero, a pharetra augue mollis
+                        interdum.</p> -->
+                        <button class="my_btn">I want to join</button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="3000">
+                    <img src="C:\Users\IBRAHIM BABATUNDE\Desktop\she-hacks\tutor_me-master\assets\images\subjects2.jpg"
+                        class="img1" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h1 class="info">Browse our collection of wide subjects
+                            covering many interesting topics</h1>
+                        <button class="my_btn">Browse all subjects</button>
+                    </div>
+                </div>
+                <div class="carousel-item active" data-interval="3000">
+                    <img src="C:\Users\IBRAHIM BABATUNDE\Desktop\she-hacks\tutor_me-master\assets\images\teaher.jpeg"
+                        class="img1" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h1 class="info">Find the right tutor you are looking for without breaking a sweat</h1>
+                        <button class="my_btn">Find a tutor</button>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-9">
+                <br>
+                <h1 style="background-color: greenyellow">Looking for a tutor? We'll help you find the
+                    right one</h1>
+                <form>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Enter your desired subject">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Enter your city">
+                        </div>
+                        <button type="submit" class="my_btn2">Search</button>
+                    </div>
+                </form>
+                <br>
+                <h1 style="text-align: center;">(Some text here)</h1>
+                <br>
+                <div class="subjects">
+                    <button class="my_btn">Browse all categories</button>
+                </div>
+                <br>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href=""><img
+                                src="C:\Users\ABDULLRAHMAN\Desktop\Bootcamp_projects_Abuja\tutor_me_project\assets\images\coding.jpeg"
+                                class="m" alt=""></a> <br>
+                        <p class="para">Coding</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href=""><img
+                                src="C:\Users\ABDULLRAHMAN\Desktop\Bootcamp_projects_Abuja\tutor_me_project\assets\images\education.png"
+                                class="m" alt=""></a> <br>
+                        <p class="para">Education</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href=""><img
+                                src="C:\Users\ABDULLRAHMAN\Desktop\Bootcamp_projects_Abuja\tutor_me_project\assets\images\languages.png"
+                                class="m" alt=""></a> <br>
+                        <p class="para">Languages</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href=""><img
+                                src="C:\Users\ABDULLRAHMAN\Desktop\Bootcamp_projects_Abuja\tutor_me_project\assets\images\music.jpeg"
+                                class="m" alt=""></a> <br>
+                        <p class="para">Music</p>
+                    </div>
+                </div>
+                <hr>
+                <br>
+            </div>
+            <div class="col-3 bg-warning">
+                <br>
+                <h1>Want to now more about our tutors?</h1>
+                <hr>
+                <p>Meet our humble tutors who are willing to give you 1:1
+                    coaching to teach
+                    you everything you need to know about your favourite subject!</p>
+                <button class="my_btnkk">I want to know them</button>
+                <hr>
+                <h2>(Blog section)</h2>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="footer">
+        <h1>Footer Section <br>(Relevant links here) </h1>
+    </div>
+    <script
+        src="C:\Users\ABDULLRAHMAN\Desktop\Bootcamp_projects_Abuja\tutor_me_project\assets\js\jquery-3.3.1.slim.min.js"></script>
+    <script
+        src="C:\Users\ABDULLRAHMAN\Desktop\Bootcamp_projects_Abuja\tutor_me_project\assets\js\jquery_umcompressed.js"></script>
+    <script src="C:\Users\ABDULLRAHMAN\Desktop\Bootcamp_projects_Abuja\tutor_me_project\assets\js\jquery.js"></script>
+    <script src="C:\Users\ABDULLRAHMAN\Desktop\Bootcamp_projects_Abuja\tutor_me_project\assets\js\popper.js"></script>
+    <script
+        src="C:\Users\ABDULLRAHMAN\Desktop\Bootcamp_projects_Abuja\tutor_me_project\assets\js\boostrap.min.js"></script>
+</body>
+
+</html>

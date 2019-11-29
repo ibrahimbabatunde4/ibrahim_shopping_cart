@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Shopping Cart</title>
+    <script> src = "C:/Users/ABDULLRAHMAN/Desktop/Bootcamp_projects_Abuja/She_hacks/assets/js/jquery.js" </script>
+    <script
+        src="C:\Users\ABDULLRAHMAN\Desktop\Bootcamp_projects_Abuja\She_hacks\assets\js\jquery-3.4.1.slim.min.map"></script>
+    <link rel="stylesheet"
+        href="C:\Users\IBRAHIM BABATUNDE\Desktop\she-hacks\shopping correction\css\mycart.css">
+    <link rel="stylesheet"
+        href="C:\Users\IBRAHIM BABATUNDE\Desktop\she-hacks\shopping correction\css\bootstrap.min.css">
+    <link rel="stylesheet"
+    href="C:\Users\IBRAHIM BABATUNDE\Desktop\she-hacks\shopping correction\js\bootstrap.min.js">
+        <style>
+        .search-button {
+            margin-top: 15px;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 side-bar">
+                <div class="side">
+                    <div class="shopping-cart-text">
+                        <h3> Shopping Cart</h3>
+                    </div>
+                    <hr class="small-line" />
+                    <img src="C:\Users\IBRAHIM BABATUNDE\Desktop\she-hacks\shopping correction\images\shopping-cart.png"
+                        alt="cart">
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-light">
+                        View Shopping Cart
+                    </button>
+                    <hr class="small-line">
+                </div>
+            </div>
+
+            <div class="col-md-9 full-bar">
+                <div class="search-button">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </div>
+                <span class="fas fa-search"></span>
+                <hr>
+                <div class="empty-top">
+                </div>
+                <div class="items">
+                    <hr>
+                    <p>Item name: T-Shirt <span class="quantity"><label>Quantity: </label><input type="number"></span></p>
+                    <p>Price: <span class="price">N6000</span></p>
+                    <button class="add-cart">Add to cart</button>
+                    <hr>
+                    <p>Item name: Dress <span class="quantity"><label>Quantity: </label><input type="number"></span></p>
+                    <p>Price: <span class="price">N8000</span></p>
+                    <button class="add-cart">Add to cart</button>
+                    <hr>
+                    <p>Item name: Short <span class="quantity"><label>Quantity: </label><input type="number"></span></p>
+                    <p>Price: <span class="price">N4000</span></p>
+                    <button class="add-cart">Add to cart</button>
+                    <hr>
+                    <p>Item name: Jeans <span class="quantity"><label>Quantity: </label><input type="number"></span></p>
+                    <p>Price: <span class="price">N7000</span></p>
+                    <button class="add-cart">Add to cart</button>
+                    <hr>
+                </div>
+
+                <div class="empty-top"></div>
+                <div class="items">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="remove-button" scope="col">Item name</th>
+                                <th class="remove-button" scope="col">Price</th>
+                                <th class="remove-button" scope="col">Quantitity
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Dress</td>
+                                <td>8000</td>
+                                <td>2</td>
+                                <td class="remove-button">REMOVE</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

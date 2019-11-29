@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(108, 165, 42);
+}
+h3 {
+    color: rgb(98, 0, 255);
+}
+.IBRAHIM {
+    font-size: 90px; text-align: center;
+}
+
+.container{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+}
+.btn{
+    font-weight: 600px;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+    color: red;
+    background-color: blue;
+}
+p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 60px;
+}
+
